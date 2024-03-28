@@ -1,0 +1,2 @@
+# SPAM-Wed-Basic
+SPAM

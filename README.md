@@ -1,4 +1,4 @@
-# SPAM-Wed-Basic
+s# SPAM-Wed-Basic
 
 첫번째 커밋이다!
 
@@ -74,3 +74,45 @@
 12. 결론
 
     프론트 붐이 왔으니 이상한 라이브러리 많이 도입하면 프론트엔드 계발자라는 전문성과 밥그릇을 지킬 수 있다.
+
+# - h1 markdown 기본 문법
+
+## - h2
+
+### - h3
+
+#### - h4
+
+##### - h5
+
+###### - h6
+
+p태그
+
+- 1번
+- 2번
+- 3번
+
+```javascropt
+console.log("Hello Worlde");
+```
+
+# JavaScript 공부
+
+## 실행하는 방법
+
+- js 에서 코드 입력 후 html에
+
+```html
+<script src="/js/app.js"></script>
+```
+
+를 입력하면 html과 연결된 웹사이트에서 F12 console로 확인가능
+
+- 또는, html에서 바로
+
+```javascript
+<script>console.log("Hello World!");</script>
+```
+
+입력 후 연결된 웹사이트에서 F12 console로 확인가능

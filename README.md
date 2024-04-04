@@ -115,4 +115,6 @@ console.log("Hello Worlde");
 <script>console.log("Hello World!");</script>
 ```
 
+- 또는, 터미널에서 cd js 입력 후, node app.js 명령어를 통해 app.js에서 입력한 코드 확인 가능
+
 입력 후 연결된 웹사이트에서 F12 console로 확인가능

@@ -1,3 +1,23 @@
 #뉄 {
-  background-color: blue;
+  background-color: #ff0080;
+  color: hsl(0, 100%, 83%);
+  margin: 50px;
+  width: 300px;
+  height: 150px;
+  border: solid 3px hwb(330 0% 68%);
+  display: block;
+
+  font-size: 100px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+#hi {
+  background-color: blueviolet;
+  font-weight: bold;
+  margin: 10px;
+  height: 30px;
+  width: 50px;
+}
+#small {
+  opacity: 0.3;
 }

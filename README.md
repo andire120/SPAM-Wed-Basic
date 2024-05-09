@@ -168,3 +168,34 @@ console.log(
   "입니다."
 );
 ```
+
+# 연산자
+
++, -, \*, /, % 존재  
+==, !=, <=, >= 존재
+
+[== - 출력값만 서로 같은지 비교]  
+[=== - 자료값의 타입까지 비교]
+
+# if, switch case 체험하기
+
+## if문
+
+```javascript
+if (age > 19) console.log("당신은 성인입니다.");
+else if (age > 13) console.log("당신은 청소년 입니다.");
+else console.log("당신은 어린이 입니다.");
+```
+
+## switch case문
+
+```javascript
+switch (age) {
+  case 8:
+    console.log("선물을 받습니다.");
+    break;
+  default:
+    console.log("볼펜을 받습니다.");
+    break;
+}
+```

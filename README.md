@@ -199,3 +199,43 @@ switch (age) {
     break;
 }
 ```
+
+# 반복문
+
+## for문
+
+```javascript
+for (기본값; 조건식; 증감값) {
+  console.log(i);
+}
+```
+
+for문 안에 for문이 존재하는 이중 for문도 가능함.  
+for문의 기본값을 선언할 때 변수를 같이 선언가능.  
+(ex. (let i = 0; i < 10; i++))
+
+## while문
+
+```javascript
+while {조건문} {
+   실행문
+}
+```
+
+조건문이 거짓이 될때까지 반복
+
+하지만 대부분 조건문을 True로 잡고 중간에 if문을 활용해 break를 거는 식으로 자주 사용.
+(continue로 다시 반복가능.)
+
+## do ~ while문
+
+(거의 안씀)
+
+```javascript
+do {
+  console.log(i);
+  i++;
+} while (i > 10);
+
+console.log(i);
+```

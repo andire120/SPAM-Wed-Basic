@@ -352,6 +352,16 @@ sayhello("정현서");
 
 이런 식으로 선 정의 후 호출 식으로 사용됨.
 
+```javascript
+function div(a, b) {
+  return a / b;
+}
+
+console.log(div(5, 6));
+```
+
+return 값은 이렇게 사용.
+
 # 전역변수
 
 모든 코드 내에서 사용가능한 변수

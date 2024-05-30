@@ -286,3 +286,76 @@ Large Language Model - 텍스트 밖에 처리를 못함, 언어모델을 확장
 ### 제미나이 (Gemini)
 
 GPT 구글버전 - 구글에다가 자세히 검색을 하면 AI가 스스로 그 검색 내용을 분석하고 내놓을 답을 스스로 정리해서 보여줌. (내년부터 상용화 예정)
+
+# 배열
+
+list랑 같음. 인덱스도 있고 int, float, char, bool 등 다 배열에 포함될 수 있음
+
+length - 배열의 길이
+push - 뒤에 새로운 데이터 삽입
+pop - 뒤의 데이터 삭제
+unshift - 앞에 새로운 데이터 삽입
+shift - 앞의 데이터 삭제
+
+```javascript
+const students = ["준석", "준영", "승원", "윤솔", "예건"];
+```
+
+식으로 사용.
+
+# Object
+
+여러 변수들의 집합, 배열과 비슷함.
+얜 of가 안되고 배열처럼 인덱스 번호 사용해서 출력 가능.
+
+```javascript
+const me = {
+  name: "정현서",
+  age: 19,
+  score: [60, 50],
+  cat: false,
+};
+```
+
+와 같은 방식으로 사용함.
+
+둘을 합치면
+
+```javascript
+const SPAM = [
+  { role: "부장", name: "정현서", grade: 3 },
+  { role: "차장", name: "국재윤", grade: 3 },
+  { role: "부원", name: "이준석", grade: 1 },
+  { role: "부원", name: "유준영", grade: 1 },
+  { role: "부원", name: "장승원", grade: 1 },
+  { role: "부원", name: "이윤솔", grade: 1 },
+  { role: "부원", name: "장우진", grade: 1 },
+  { role: "부원", name: "이우혁", grade: 1 },
+  { role: "부원", name: "최예건", grade: 1 },
+];
+```
+
+이런 식으로 응용가능.
+
+# 함수
+
+한 번 정의한 코드를 다른 인자를 사용해 여러번 사용할 수 있음.
+return 가능
+
+```javascript
+function sayhello(name) {
+  console.log(`${name}님, 안녕하세요.`);
+}
+
+sayhello("정현서");
+```
+
+이런 식으로 선 정의 후 호출 식으로 사용됨.
+
+# 전역변수
+
+모든 코드 내에서 사용가능한 변수
+
+# 지역변수
+
+특정 코드 안에서만 사용가능한 함수

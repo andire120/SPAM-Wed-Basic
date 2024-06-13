@@ -362,10 +362,87 @@ console.log(div(5, 6));
 
 return 값은 이렇게 사용.
 
-# 전역변수
+## 전역변수
 
 모든 코드 내에서 사용가능한 변수
 
-# 지역변수
+## 지역변수
 
 특정 코드 안에서만 사용가능한 함수
+
+# 백엔드
+
+- Frontend - 사용자가 직접 사용하는 영역
+- Backend - 프론트엔드가 통신하는 영역
+
+API Server - 프론트엔드와 백엔드 또는 백엔드 끼리 연결을 가능하게 해주는 영역  
+DaraBaxe - 데이터 저장소  
+Infrastructure - 백엔드를 실행하는 영역
+
+API == 메뉴판  
+식당과 손님이 음식을 주고받기 위한 방법 == 코드
+
+## 백엔드 엔지니어란?
+
+서버 사이드(Server Side) 프로그램을 디자인하고, 개발하고, 유지보수함.
+
+## API가 가져야할 내용
+
+- method - 데이터를 달라고 할 것이냐? 보낼 것이냐? 같은 요청방식.
+- endpint - 어떤 자료를 요청할 것인가?
+- parameter - 자료 요청에 필요한 추가정보 (ex. 아이디, 제목 등)
+
+## Rest란?
+
+REST(REprentational State Transfer)의 약자로 자원을 이름으로 구분하여 해당 자원의 상태를 주고받은 모든 것.
+
+### CRUD
+
+- 데이터 생성(Create)
+- 데이터 조회(Read)
+- 데이터 수정(Update)
+- 데이터 삭제(Delete)
+
+### HTTP 메소드
+
+GET - 데이터 조회  
+POST - 데이터 생성  
+PUT - 데이터 부분 수정  
+PATCH - 데이터 전체 수정  
+DELTE - 데이터 삭제
+
+## REST API란?
+
+HTTP URL를 통해 Resource를 명시하고, HTTP Method를 통해 해당 URL에 대한 CRUD를 적용하는 것.
+
+### REST API의 원칙
+
+1. 동사를 사용하지 않고 소문자를 사용하여야 한다.
+2. UPL마지막에 '/'를 포함하지 않는다.
+3. '\_' 대신 '-'를 사용한다.
+4. 파일 확장자는 URL에 포함하지 않는다.
+
+## DataBase란?
+
+구조화된 정보 또는 데이터의 조직화된 모음
+
+DataBase의 종류 - 관계형 DB <> NOSQL DB 두가지로 나뉨.
+
+- 관계형 DB - 관계형 DB 등이 있음. (MYSQL)
+- NOSQL DB - 키-값, 도큐먼트, 컬럼패밀리, 그래포 DB등이 있음 (redis, mongo DB)
+
+## 서버구조
+
+- Controller - 직접적으로 메소드를 정해서 URL로 통신하는 곳.
+- Service - 통신하며 사용할 로직을 적는 곳.
+- Repository - 데이터베이스를 연결하고, 데이터를 저장하는 곳.
+- Entity -데이터의 구조를 잡아 구조체를 저장하는 곳.
+
+## Infra 개발자
+
+주로 소프트웨어 및 하드웨어 시스템의 기본 구조 및 기반을 설계, 구축, 유지보수 하는 역할  
+AWS, Azure, GCP에 백엔드나 프론트 프로그램을 올리고, CI/CD를 하는 거임
+
+## CI/CD란?
+
+CI/CD는 지속적통합(Continuous Intergation) 및 지속적 제공/배포(Continuous Delivery/Deployment)를 의미하며, 소프트웨어 개발 라이프 사이클을 간소화시키고 가속화시키는 것.
